@@ -4,11 +4,10 @@ var connMySQL = function(){
     console.log('Conexao com bd foi estabelecida');
 
     return mysql.createConnection({
-        host:'mysql.queroaprenderexcel.com.br',
-        user: 'queroaprendere',
-        password:'morpheus1007',
-        database:'queroaprendere'
-
+        host:'localhost',
+        user: 'usuario',
+        password:'senha',
+        database:'banco de dados'
     });
 };
     module.exports = function(){
