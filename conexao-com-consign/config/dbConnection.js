@@ -8,6 +8,7 @@ var connMySQL = function(){
         user: 'usuario',
         password:'senha',
         database:'banco de dados'
+
     });
 };
     module.exports = function(){
