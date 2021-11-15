@@ -7,7 +7,7 @@ var connMySQL = function(){
         host:'localhost',
         user: 'usuario',
         password:'senha',
-        database:'banco de dados'
+        database:'banco'
 
     });
 };
